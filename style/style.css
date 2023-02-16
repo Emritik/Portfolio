@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: hsla(220, 20%, 97%, 1);
+}
+
+/*   CSS FOR NAVBAR OF THE PORTFOLIO    */
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0 20px hsla(220, 10%, 28%, 0.459);
+  border-radius: 0.4rem;
+}
+nav .logo {
+  font-weight: 900;
+  font-size: 32px;
+  color: rgba(232, 27, 16, 0.85);
+  background-color: #fff;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: #fff;
+  gap: 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+}
+nav a:hover {
+  color: rgba(236, 97, 136, 0.563);
+  transition: all 0.8s ease;
+}
+nav #toggle,
+nav label {
+  display: none;
+}
+
+/*  CSS FOR ABOUT SECTION  */
+
+.main-container {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0px solid #000;
+  margin-top: 90px;
+}
+.container {
+  width: 90%;
+  border: 0px solid #000;
+  display: inline-flex;
+  margin: 20px 10px 0px 120px;
+}
+.img {
+  flex-basis: 40%;
+  float: left;
+}
+.text {
+  flex-basis: 45%;
+  float: right;
+  clear: auto;
+  margin-left: 80px;
+}
+.img .image {
+  border-radius: 50%;
+  height: 450px;
+}
+.box {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fff;
+  width: 180px;
+  height: 90px;
+  position: relative;
+  box-shadow: 0 0 20px hsla(220, 10%, 28%, 0.459);
+  margin-top: -120px;
+  margin-left: 320px;
+  z-index: 1;
+}
+.size {
+  font-size: 56px;
+  font-weight: bold;
+  color: rgba(53, 50, 50, 0.867);
+}
+.about-content {
+  font-size: 22px;
+  color: grey;
+}
+.check-project {
+  width: 35%;
+  height: 8vh;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0px;
+  background-color: rgba(230, 109, 132, 0.809);
+  color: #fff;
+  border-radius: 30px;
+}
+.check-project-contact {
+  width: 35%;
+  height: 8vh;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid rgba(230, 109, 132, 0.809);
+  background-color: #fff;
+  color: rgba(230, 109, 132, 0.809);
+  border-radius: 30px;
+}
+[data-reveal] {
+  transition: 0.75s ease;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+.check-project:hover {
+  transform: translateY(-8px);
+  transition: all 0.4s ease-in-out;
+}
+.check-project-contact:hover {
+  transform: translateY(-8px);
+  transition: all 0.4s ease-in-out;
+  background-color: rgba(230, 109, 132, 0.809);
+  color: #fff;
+}
+
+/*    MAIN ABOUT BODY CSS   */
+
+.about {
+  flex-basis: 40%;
+  float: left;
+}
+.skills {
+  flex-basis: 40%;
+  float: right;
+  clear: auto;
+  font-size: 22px;
+  margin-left: 80px;
+}
+ul li {
+  list-style: none;
+  display: flex;
+}
+.heading-size {
+  font-size: 40px;
+  color: rgba(53, 50, 50, 0.867);
+  font-family: 600;
+}
+.para-size {
+  font-size: 20px;
+  color: grey;
+}
+.mar-left {
+  margin-left: 350px;
+}
+.marg {
+  margin-top: 10px;
+}
+.process {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+  border: 0px solid #fff;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.process-fill {
+  width: 80%;
+  border: 0px solid;
+  height: 6px;
+  background-color: #c7b1dd;
+}
+.process-fill1 {
+  width: 70%;
+  border: 0px solid;
+  height: 6px;
+  background-color: #b0d4c1;
+}
+.process-fill2 {
+  width: 90%;
+  border: 0px solid;
+  height: 6px;
+  background-color: #22a5089a;
+}
+
+/*  CSS FOR PROJECT SECTION  */
+
+.info {
+  margin: 140px 0px 0px 120px;
+  display: inline-flex;
+}
+.check-project-project {
+  width: 200px;
+  height: 8vh;
+  font-size: 18px;
+  margin-left: 400px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid rgba(230, 109, 132, 0.809);
+  background-color: #fff;
+  color: rgba(230, 109, 132, 0.809);
+  border-radius: 30px;
+}
+.check-project-project:hover {
+  transform: translateY(-8px);
+  transition: all 0.4s ease-in-out;
+  background-color: rgba(230, 109, 132, 0.809);
+  color: #fff;
+}
+.details1 {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  width: 90%;
+  height: 85vh;
+  border-radius: 10px;
+  background-color: #84a4ef2f;
+  margin: 40px 0px 0px 70px;
+}
+.web {
+  margin: 50px;
+  font-size: 24px;
+  color: #6d25b5;
+  background-color: transparent;
+}
+.flx {
+  margin: 20px;
+  border-radius: 10px;
+  word-spacing: 10px;
+  display: flex;
+}
+.alg1 {
+  width: 50%;
+  height: 40vh;
+}
+.alg2 {
+  width: 45%;
+  margin-left: 20px;
+  height: 40vh;
+}
+.details2 {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  width: 90%;
+  height: 80vh;
+  border-radius: 10px;
+  background-color: #d65d972f;
+  margin: 40px 0px 0px 70px;
+}
+.mobile {
+  margin: 50px;
+  font-size: 24px;
+  color: #a9416ec4;
+  background-color: transparent;
+}
+.mob {
+  width: 25%;
+  height: 70vh;
+  background-color: transparent;
+}
+.mob-text {
+  margin-top: -400px;
+  margin-left: 300px;
+}
+
+/*  CSS FOR CONTACT SECTION   */
+
+.contact {
+  padding-block-end: 0;
+}
+.contact-content {
+    background-color: #d65d9700;
+}
+.container {
+  width: 90%;
+  border: 0px solid #000;
+  display: inline-flex;
+  margin: 20px 10px 0px 70px;
+}
+.contact-card {
+  background-color: #d65d972f;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  gap: 40px;
+}
+ .contact-content,
+.card-icon,
+.section-title,
+.section-text, .input-wrapper, .contact-form {
+  background-color: #d65d9700;
+} 
+.contact .section-title {
+  margin-block-start: 20px;
+}
+.input-field {
+  background-color: hsla(0, 0%, 100%, 1);
+  color: hsla(220, 12%, 43%, 1);
+  font-size: 1.5rem;
+  padding: 14px 18px;
+  width: 40%;
+  height: 3vh;
+  border-radius: 6px;
+  outline: none;
+  margin-block-end: 20px;
+}
+.input-field-textarea {
+  background-color: hsla(0, 0%, 100%, 1);
+  color: hsla(220, 12%, 43%, 1);
+  font-size: 1.5rem;
+  padding: 14px 18px;
+  width: 90%;
+  border-radius: 6px;
+  outline: none;
+  margin-block-end: 20px;
+  min-height: 120px;
+  max-height: 240px;
+  resize: vertical;
+}
+.input-field::placeholder {
+  color: hsla(219, 10%, 62%, 1);
+}
+.btn-secondary {
+  width: 35%;
+  height: 7vh;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 120px;
+}
+.btn-secondary:hover {
+  transform: translateY(-8px);
+  transition: all 0.4s ease-in-out;
+  background-color: rgba(230, 109, 132, 0.809);
+  color: #fff;
+}
+
+/*    CSS FOR FOOTER SECTION     */
+
+.footer {
+  display: inline-flex;
+}
+.footer-content {
+  margin: 30px 10px 0px 120px;
+}
+.footer-links {
+  margin: 25px 0px 0px 700px;
+}
+.icons {
+  width: 40px;
+  height: 7vh;
+}
+.icons:hover {
+  transform: translateY(-8px);
+  transition: all 0.4s ease-in-out;
+}
+
+/*    For Mobile display    */
+
+/*  This part of the css maintain the opening and closing of menu  */
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  nav label {
+    display: inline-flex;
+    color: #000;
+    cursor: pointer;
+  }
+  nav #toggle:checked ~ .menu {
+    height: 100%;
+  }
+  .container {
+    display: block;
+  }
+  .img {
+    width: 100%;
+    margin-left: -80px;
+    margin-top: -90px;
+  }
+  .image {
+    width: 400px;
+    margin-left: 40px;
+  }
+  .box {
+    margin-left: 310px;
+    width: 43%;
+  }
+  .text {
+    margin-top: 50px;
+    margin-right: -10px;
+    width: 100%;
+  }
+  .size {
+    font-size: 45px;
+  }
+  .check-project {
+    width: 45%;
+    height: 5vh;
+    margin-left: -10px;
+  }
+  .check-project-contact {
+    width: 45%;
+    height: 5vh;
+  }
+  .about {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .heading-size {
+    font-size: 35px;
+  }
+  .para-size {
+    font-size: 22px;
+  }
+  .skills {
+    margin: 40px -45px 0px -20px;
+  }
+  ul {
+    width: 90%;
+    display: inline-block;
+    font-size: 24px;
+  }
+  .mar-left {
+    margin-left: 250px;
+  }
+  .cont .heading-size {
+    margin-left: 100px;
+    margin-bottom: -20px;
+    font-size: 32px;
+  }
+  .cont .para-size {
+    margin: 20px 0px 0px 70px;
+    font-size: 22px;
+  }
+  .info {
+    margin-left: 10px;
+    display: block;
+  }
+  .check-project-project {
+    margin-left: 120px;
+    margin-top: 15px;
+  }
+  .web .para-size {
+    font-size: 20px;
+    background-color: transparent;
+    margin: 10px;
+  }
+  .web .flx {
+    display: block;
+  }
+  .web .flx .alg1 {
+    width: 250px;
+    margin-left: -30px;
+    height: 20vh;
+  }
+  .dec {
+    background-color: transparent;
+  }
+  .web .flx .alg2 {
+    width: 250px;
+    margin-left: -30px;
+    height: 20vh;
+  }
+  .details2 {
+    height: 40vh;
+  }
+  .mobile .mob {
+    width: 130px;
+    height: 35vh;
+    margin: -30px;
+  }
+  .mob-text-inner {
+    background-color: transparent;
+  }
+  .mob-text {
+    margin-left: 140px;
+    margin-top: -200px;
+  }
+  .mob-text .para-size {
+    font-size: 18px;
+    background-color: rgba(237, 193, 201, 0.459);
+  }
+  .contact-card  {
+    display: block;
+  }
+  .input-field {
+    width: 88%;
+  }
+  .input-wrapper {
+    margin-top: 20px;
+  }
+  .btn-secondary {
+    margin-left: 48px;
+    width: 59%;
+  }
+
+
+
+
+
+
+
+
+
+
+  .footer {
+    margin-top: 230px;
+    width: 100%;
+  }
+  .footer-content {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: -200px;
+  }
+  .footer-links {
+    display: flex;
+    margin-left: -250px;
+    margin-top: -170px;
+  }
+}
