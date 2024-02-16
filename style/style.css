@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   background-color: hsla(220, 20%, 97%, 1);
+  
+}
+html {
+  scroll-behavior: smooth;
 }
 
 /*   CSS FOR NAVBAR OF THE PORTFOLIO    */
